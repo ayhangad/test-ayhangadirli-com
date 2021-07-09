@@ -1,0 +1,144 @@
+    
+    @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+    body {
+      background-image: url(images/seamlessPattern.png);
+      background-size: inherit;
+      background-repeat: repeat;
+
+    }
+
+    * {
+      font-family: 'Otomanopee One', sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      z-index: 1;
+      font-size: 65px;
+      margin: 25px 0 45px 0;
+      color: rgb(35, 35, 35);
+    }
+
+    p {
+      font-weight: regular;
+      color: rgba(19, 19, 19, 0.7);
+      text-align: center;
+      font-size: 25px;
+      z-index: 1;
+    }
+
+    #about {
+      margin: 145px 0 45px 0;
+      padding-top: 55px;
+    }
+
+    #aboutCont {
+      margin-top: 250px;
+      margin-bottom: 150px;
+    }
+
+    #arrow {
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 50px;
+      color: rgb(80, 10, 80);
+      width: 50px;
+    }
+
+    #navigation {
+      background: white;
+      align-items: center;
+      border-radius: 25px;
+      box-shadow: 0 5px 35px 0 rgba(85, 44, 85, 0.15);
+    }
+
+    #logo {
+      padding: 5px;
+    }
+
+    #gadmoji {
+      display: block;
+      border-radius: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      box-shadow: 0 5px 35px 0 rgba(85, 44, 85, 0.15);
+    }
+
+    #aboutP {
+      font-size: 20px;
+      text-align: left;
+      margin-left: 30px;
+      width: 600px;
+    }
+
+    #aboutImage {
+      position: absolute;
+      left: 55%;
+      width: 600px;
+    }
+
+    #worksRow {
+      text-align: center;
+    }
+
+    #worksRow>a {
+      text-decoration: none;
+    }
+    #albumarts>img{
+      width: 500px;
+      margin: 25px;
+      box-shadow: 0 5px 35px 0 rgba(85, 44, 85, 0.3) ;
+    }
+    #albumarts{
+      margin-bottom: 80px;
+    }
+    .socialButtons{
+        text-decoration: none;
+        color: rgb(80, 10, 80);
+        text-align: center;
+        font-size: 25px;
+        background: white;
+        padding: 15px;
+        margin: 15px;
+        box-shadow: 0 5px 35px 0 rgba(85, 44, 85, 0.15) ;
+        width: 250px;
+        align-items: center;
+        border-radius: 35px;
+    }
+    .socialButtons:hover{
+        background: rgb(80, 10, 80);
+        color: whitesmoke;
+    }
+    #socialDiv{
+        margin-left: 85px;
+        margin-bottom: 100px;
+    }
+    #mailcontact{
+        align-items: center;
+        margin-left: 70px;
+    }
+    #mailcontact>div{
+        width: 200px;
+        text-align: left;
+        margin:50px;
+    }
+    #uparrow{
+        font-size: 35px;
+        left: 1300px;
+        top: 550px;
+        z-index: 10;
+        position: fixed;
+        align-items: center;
+        color: white;
+        margin-right: 70px;
+        background: rgb(80, 10, 80);
+        border-radius: 50px;
+    }
+    #uparrow:hover{
+        color: rgb(80, 10, 80);
+        background: whitesmoke;
+    }
