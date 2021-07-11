@@ -5,11 +5,13 @@
       background-image: url(images/seamlessPattern.png);
       background-size: inherit;
       background-repeat: repeat;
+      display: grid;
 
     }
 
     * {
       font-family: 'Otomanopee One', sans-serif;
+      /*border: 2px solid red;*/
     }
 
     h1 {
@@ -34,7 +36,7 @@
     }
 
     #aboutCont {
-      margin-top: 250px;
+      margin-top: 0;
       margin-bottom: 150px;
     }
 
@@ -89,7 +91,7 @@
       text-decoration: none;
     }
     #albumarts>img{
-      width: 500px;
+      width: 25%;
       margin: 25px;
       box-shadow: 0 5px 35px 0 rgba(85, 44, 85, 0.3) ;
     }
@@ -115,11 +117,13 @@
         color: whitesmoke;
     }
     #socialDiv{
+        width: 1200px;
         margin-left: 85px;
         margin-bottom: 100px;
     }
     #mailcontact{
         align-items: center;
+        width: 1300px;
         margin-left: 70px;
     }
     #mailcontact>div{
@@ -129,8 +133,8 @@
     }
     #uparrow{
         font-size: 35px;
-        left: 1300px;
-        top: 550px;
+        left: 93%;
+        top: 85%;
         z-index: 10;
         position: fixed;
         align-items: center;
@@ -157,4 +161,7 @@
     }
     .image:hover #gadmoji{
       box-shadow: 0 5px 35px 0 rgba(85, 44, 85, 0.3) ;
+    }
+    @media screen {
+      
     }
